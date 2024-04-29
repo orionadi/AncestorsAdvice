@@ -1,0 +1,88 @@
+.container{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  position: absolute;
+  bottom: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin: 10px;
+  background: black;
+  color: rgba(255, 255, 255, 0.703);
+  text-align: center;
+  opacity: 0.5;
+  transition: 0.3s;
+  height: 60px;
+  width: 60px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.btn:hover{
+  border-color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+/* .card{
+  text-align: center;
+} */
+
+h1{
+  color: whitesmoke;
+  margin: 2px;
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.footer{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ftname{
+  color: rgb(255, 255, 255);
+  opacity: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ftname:hover{
+  opacity: 0.6;
+}
+.ftsocial{
+  color: white;
+  opacity: 0.1;
+  margin: 0.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ftsocial:hover{
+  opacity: 0.6;
+}
+/* .copy{
+  margin-top: 29px;
+} */

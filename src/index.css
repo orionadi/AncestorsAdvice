@@ -1,0 +1,20 @@
+html{
+  height: 100%;
+}
+
+body{
+  background: black;
+  /* display: flex;
+  justify-content: center; */
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.393);
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
